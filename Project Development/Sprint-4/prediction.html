@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home | IBM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .nav.navbar-nav{
+   margin-left: 280px;
+   }
+   .navbar-brand{
+    font-size: 22px;
+   }
+   .footer{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+   }
+  </style>
+</head>
+<body style="background-image: linear-gradient(to right, #DECBA4, #3E5151);">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><b>Intelligent Vehicle Damage Assessment and Cost Estimator for Insurance Companies</b></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="logout.html">logout</a></li>
+    </ul>
+  </div>
+</nav><br><br><br><br>
+
+<div style="margin-top: -45px;" class="container"> 
+    <center> 
+        <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>UPLOAD IMAGE TO PREDICT</b></h2><br>
+     <form action="prediction.html">
+        <input style="background-color:black;
+                      opacity: 78%;
+                      color: white;
+                      font-size: 18px;
+                      width: 250px;"
+                      type="file" id="myFile" name="filename">
+        <br><br>
+        <input style="background-color:black;
+                      opacity: 78%;
+                      color: white;
+                      font-size: 18px;
+                      border-radius: 18px;
+                      width: 150px;" type="submit">
+     </form>
+     <br>
+     <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" > <b> The Estimated cost for the Damage is = COMING SOON......</b></h2>
+    </center> 
+</div>
+<div class="footer">
+    <p style="color:white;
+              margin-top: 20px;
+              text-align: center;"><b>
+              COPYRIGHT @ 2022,ALL RIGHTS RESERVED</b>
+    </p>
+    
+  </div>
+  
+
+
+</body>
+</html>
